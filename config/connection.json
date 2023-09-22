@@ -1,0 +1,15 @@
+{
+    "port":2540,
+    "server": "192.168.90.69",
+    "user": "usrDouglasCosta",
+    "password": "DouglasCosta123",
+    "database":"BDDouglasCosta",
+    "stream": false,
+    "options": {
+        "trustedConnection": true,
+        "encrypt": false,
+        "enableArithAbort": true,
+        "trustServerCertificate": true
+    }
+
+}

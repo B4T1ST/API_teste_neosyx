@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html, body {
+    /*margin: 0;*/
+    /*padding: 0;*/
+}
+
+* {
+    /*padding: 0;*/
+    /*margin: 0;*/
+    /*box-sizing: border-box;*/
+}
+ul.nav { 
+	/*margin:0;*/ 
+	/*padding:0;*/
+}
+	
+ul.nav li {
+    position: relative;
+    left: 1rem;
+    top: 2.5rem;
+	list-style:none;	
+	display:inline;
+}
+ul.nav li button {
+    position: relative;
+    left: 15rem;
+    margin-right: 1rem;
+    border: none;
+    height: 3rem;
+    width:10rem;
+	font-family: "Poppins";
+	background:#fff;
+	color: #124B94;
+	text-align:center;
+	text-decoration:none;
+}
+ul.nav a:hover{
+	background:#999;
+	color:#fff;
+	border-color:#000 #fafafa #fafafa #000;
+}
+
+::placeholder{
+    font-family:"Poppins";
+    color: #124B94;
+}
+
+:root{
+    /*
+    1 REM = 1 px;
+    */
+    font-family:"Poppins";
+    font-size: 62.5%;
+    --primaryCollor: #124B94;
+    --background-color: #fff;
+    --text : #272727;
+    --fundoPesquisa: #ebeef2;
+    --titulo: #666;
+    --primary:var(--primaryCollor);
+}
